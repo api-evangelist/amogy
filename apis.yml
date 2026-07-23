@@ -1,7 +1,29 @@
 aid: amogy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amogy.png
 name: Amogy
-description: Amogy is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Amogy is an energy-technology company decarbonizing hard-to-electrify sectors
+  by converting energy-dense ammonia into dispatchable, zero-carbon electricity.
+  Its AMMDrive power systems crack ammonia into hydrogen and nitrogen and convert
+  the hydrogen to power for data centers, industrial facilities, microgrids, and
+  maritime vessels, and it develops proprietary low-temperature ammonia-cracking
+  catalysts. Backed by DCVC and other investors, Amogy has demonstrated the
+  world's first carbon-free ammonia-powered maritime vessel and partners with
+  firms such as Samsung Heavy Industries and Mitsubishi. This is a company
+  profile in the API Evangelist network; Amogy publishes no public developer API
+  surface at this time, so this record captures its corporate identity and
+  public web properties rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/amogy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +36,35 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Energy
+- Clean Energy
+- Ammonia
+- Decarbonization
+- Hydrogen
+- Power Generation
+- Maritime
+- Sustainability
 apis: []
+common:
+- type: Website
+  url: https://amogy.co
+- type: Blog
+  url: https://amogy.co/news
+- type: Support
+  url: https://amogy.co/contact-us
+- type: PrivacyPolicy
+  url: https://amogy.co/privacy-policy
+- type: TermsOfService
+  url: https://amogy.co/terms-conditions
+- type: DomainSecurity
+  url: security/amogy-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
